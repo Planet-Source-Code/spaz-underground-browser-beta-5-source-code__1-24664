@@ -1,0 +1,265 @@
+[Root]
+Most Recent Package=Standard Setup Package 1
+
+
+[Package|Standard Setup Package 1|Underground Search]
+Icon1="Underground Browser.exe"
+Title1=Underground Search
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Standard Setup Package 1|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\Spaz\Browser
+
+[Package|Standard Setup Package 1|Configure DAO ISAMs]
+Applicable=Yes
+Jet 2.x=Yes
+
+[Package|Standard Setup Package 1|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Standard Setup Package 1|Files Found]
+popups.dat=C:\Spaz\Underground Search\Underground Search\popups.dat
+Agent.ico=C:\Spaz\Underground Browser\Agent.ico
+
+[Package|Standard Setup Package 1|Files Released]
+Kernel.DLL=
+cedit.ini=
+
+[Package|Standard Setup Package 1|Missing Dependency Information]
+C:\Downloads\cEditNew\cEdit\RELATED\AXCOLCTL.OCX=
+C:\Downloads\cEditNew\cEdit\RELATED\CMAX20.OCX=
+C:\WINDOWS\SYSTEM\CButton.ocx=
+C:\Program Files\Common Files\SYSTEM\ADO\MSADO21.TLB=
+C:\WINDOWS\SYSTEM\SHFOLDER.DLL=
+C:\Programming\Setup\Support\AXCOLCTL.OCX=
+C:\Programming\Setup\Support\CButton.ocx=
+C:\Programming\Setup\Support\MSINET.OCX=
+C:\Programming\Setup\Support\RICHTX32.OCX=
+C:\Programming\Setup\Support\TABCTL32.OCX=
+C:\Programming\Setup\Support\COMDLG32.OCX=
+C:\Programming\Setup\Support\Comct332.ocx=
+C:\Programming\Setup\Support\MSCOMCTL.OCX=
+C:\Programming\Setup\Support\CMAX20.OCX=
+C:\Downloads\cEdit\cEdit\related\axcolctl.ocx=
+C:\Spaz\Browser\Browser\CButton.ocx=
+C:\Downloads\cEdit\cEdit\related\cmax20.ocx=
+C:\Downloads\NetTab\xuiTreeView6.ocx=
+C:\Downloads\NetTab\vbalIml.ocx=
+C:\Downloads\NetTab\vbalTbar.ocx=
+C:\WINDOWS\SYSTEM\AXCOLCTL.OCX=
+C:\Downloads\AutoIndent\AutoIndent.dll=
+C:\Downloads\NetTab\cNewMenu.dll=
+C:\Downloads\NetTab\SSubTmr.dll=
+C:\WINDOWS\SYSTEM\CMAX20.OCX=
+C:\WINDOWS\SYSTEM\xuiTreeView6.ocx=
+C:\WINDOWS\SYSTEM\vbalIml.ocx=
+C:\WINDOWS\SYSTEM\vbalTbar.ocx=
+C:\WINDOWS\SYSTEM\cNewMenu.dll=
+C:\WINDOWS\SYSTEM\SSubTmr.dll=
+
+[Package|Standard Setup Package 1|Out-of-Date Dependency Information]
+C:\WINDOWS\SYSTEM\MSINET.OCX=
+C:\WINDOWS\SYSTEM\RICHTX32.OCX=
+C:\WINDOWS\SYSTEM\TABCTL32.OCX=
+C:\WINDOWS\SYSTEM\COMDLG32.OCX=
+C:\WINDOWS\SYSTEM\Comct332.ocx=
+C:\WINDOWS\SYSTEM\MSCOMCTL.OCX=
+
+[Package|Standard Setup Package 1|Files Added]
+c:\spaz\underground browser\popups.dat=
+c:\spaz\underground browser\undergroundhistory.dat=
+c:\spaz\underground browser\undergroundbrowse.ini=
+credits.txt=
+agent.ico=
+searchengines.udb=
+
+[Package|Standard Setup Package 1|Files Removed]
+
+[Package|Standard Setup Package 1|Files In Project]
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\SYSTEM\SHFOLDER.DLL=Yes
+C:\Program Files\Common Files\SYSTEM\ADO\MSADO21.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\SYSTEM\Vb6stkit.dll=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\WINDOWS\SYSTEM\MSJET35.DLL=Yes
+C:\WINDOWS\SYSTEM\MSJTER35.DLL=Yes
+C:\WINDOWS\SYSTEM\MSJINT35.DLL=Yes
+C:\WINDOWS\SYSTEM\VBAJET32.DLL=Yes
+C:\WINDOWS\SYSTEM\EXPSRV.DLL=Yes
+C:\WINDOWS\SYSTEM\MSRD2X35.DLL=Yes
+C:\WINDOWS\SYSTEM\MSREPL35.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=Yes
+C:\WINDOWS\SYSTEM\VB5DB.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+C:\Program Files\Common Files\Microsoft Shared\DAO\DAO350.DLL=Yes
+C:\WINDOWS\SYSTEM\MSCOMCTL.OCX=Yes
+C:\WINDOWS\SYSTEM\COMCT332.OCX=Yes
+C:\WINDOWS\SYSTEM\COMDLG32.OCX=Yes
+C:\WINDOWS\SYSTEM\TABCTL32.OCX=Yes
+C:\WINDOWS\SYSTEM\RICHTX32.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=Yes
+C:\WINDOWS\SYSTEM\MSINET.OCX=Yes
+C:\Spaz\Underground Browser\Beta5.exe=Yes
+C:\WINDOWS\SYSTEM\CMAX20.OCX=Yes
+C:\Downloads\AutoIndent\AutoIndent.dll=Yes
+C:\WINDOWS\SYSTEM\CButton.ocx=Yes
+C:\WINDOWS\SYSTEM\AXCOLCTL.OCX=Yes
+C:\Spaz\Underground Browser\popups.dat=Yes
+C:\Spaz\Underground Browser\UndergroundHistory.dat=Yes
+C:\Spaz\Underground Browser\UndergroundBrowse.ini=Yes
+C:\WINDOWS\SYSTEM\SSubTmr.dll=Yes
+C:\WINDOWS\SYSTEM\cNewMenu.dll=Yes
+C:\WINDOWS\SYSTEM\vbalTbar.ocx=Yes
+C:\WINDOWS\SYSTEM\vbalIml.ocx=Yes
+C:\WINDOWS\SYSTEM\xuiTreeView6.ocx=Yes
+C:\Spaz\Underground Browser\Credits.txt=Yes
+C:\Spaz\Underground Browser\Agent.ico=Yes
+C:\Spaz\Underground Browser\SearchEngines.udb=Yes
+
+[Package|Standard Setup Package 1|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Package 1|Install Locations]
+C:\Downloads\Underground Search\Underground Browser.exe=$(AppPath)
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\SHFOLDER.DLL=$(WinSysPath)
+C:\Program Files\Common Files\SYSTEM\ADO\MSADO21.TLB=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSCOMCTL.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\Comct332.ocx=$(WinSysPath)
+C:\WINDOWS\SYSTEM\COMDLG32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\TABCTL32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\RICHTX32.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\MSINET.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\CButton.ocx=$(WinSysPath)
+C:\Downloads\cEditNew\cEdit\RELATED\CMAX20.OCX=$(WinSysPath)
+C:\Downloads\cEditNew\cEdit\RELATED\AXCOLCTL.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\Vb6stkit.dll=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\Downloads\Underground Search\cedit.ini=$(AppPath)
+C:\Downloads\Underground Search\popups.dat=$(AppPath)
+C:\Downloads\Underground Search\UndergroundHistory.dat=$(AppPath)
+C:\Programming\Underground Search\Underground Browser.exe=$(AppPath)
+C:\Programming\Underground Search\UndergroundBrowse.ini=$(AppPath)
+C:\Programming\Setup\Support\CMAX20.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\DAO350.DLL=$(MSDAOPath)
+C:\WINDOWS\SYSTEM\MSJET35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\MSJTER35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\MSJINT35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\VBAJET32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\EXPSRV.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\MSRD2X35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\MSREPL35.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\VB5DB.DLL=$(WinSysPath)
+C:\Programming\Setup\Support\MSCOMCTL.OCX=$(WinSysPath)
+C:\Programming\Setup\Support\Comct332.ocx=$(WinSysPath)
+C:\Programming\Setup\Support\COMDLG32.OCX=$(WinSysPath)
+C:\Programming\Setup\Support\TABCTL32.OCX=$(WinSysPath)
+C:\Programming\Setup\Support\RICHTX32.OCX=$(WinSysPath)
+C:\Programming\Setup\Support\MSINET.OCX=$(WinSysPath)
+C:\Programming\Setup\Support\CButton.ocx=$(WinSysPath)
+C:\Programming\Setup\Support\AXCOLCTL.OCX=$(WinSysPath)
+C:\Spaz\Underground Search\Underground Search\Underground Browser.exe=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Downloads\cEdit\cEdit\related\cmax20.ocx=$(WinSysPath)
+C:\Program Files\Common Files\Microsoft Shared\DAO\DAO350.DLL=$(MSDAOPath)
+C:\Spaz\Browser\Browser\CButton.ocx=$(WinSysPath)
+C:\Downloads\cEdit\cEdit\related\axcolctl.ocx=$(WinSysPath)
+C:\Spaz\Underground Search\Underground Search\popups.dat=$(AppPath)
+C:\Spaz\Underground Search\Underground Search\UndergroundHistory.dat=$(AppPath)
+C:\Spaz\Underground Search\Underground Search\UndergroundBrowse.ini=$(AppPath)
+C:\Spaz\Underground Search\Underground Search\Credits.txt=$(AppPath)
+C:\Spaz\Underground Search\Underground Search\Agent.ico=$(AppPath)
+C:\Spaz\Underground Search\Underground Search\SearchEngines.udb=$(AppPath)
+C:\Spaz\Underground Browser\Beta5.exe=$(AppPath)
+C:\WINDOWS\SYSTEM\CMAX20.OCX=$(WinSysPath)
+C:\Downloads\NetTab\SSubTmr.dll=$(WinSysPath)
+C:\Downloads\NetTab\cNewMenu.dll=$(WinSysPath)
+C:\Downloads\AutoIndent\AutoIndent.dll=$(WinSysPath)
+C:\WINDOWS\SYSTEM\AXCOLCTL.OCX=$(WinSysPath)
+C:\Downloads\NetTab\vbalTbar.ocx=$(WinSysPath)
+C:\Downloads\NetTab\vbalIml.ocx=$(WinSysPath)
+C:\Downloads\NetTab\xuiTreeView6.ocx=$(WinSysPath)
+C:\Spaz\Underground Browser\popups.dat=$(AppPath)
+C:\Spaz\Underground Browser\UndergroundHistory.dat=$(AppPath)
+C:\Spaz\Underground Browser\UndergroundBrowse.ini=$(AppPath)
+C:\WINDOWS\SYSTEM\SSubTmr.dll=$(WinSysPath)
+C:\WINDOWS\SYSTEM\cNewMenu.dll=$(WinSysPath)
+C:\WINDOWS\SYSTEM\vbalTbar.ocx=$(WinSysPath)
+C:\WINDOWS\SYSTEM\vbalIml.ocx=$(WinSysPath)
+C:\WINDOWS\SYSTEM\xuiTreeView6.ocx=$(WinSysPath)
+C:\Spaz\Underground Browser\Credits.txt=$(AppPath)
+C:\Spaz\Underground Browser\Agent.ico=$(AppPath)
+C:\Spaz\Underground Browser\SearchEngines.udb=$(AppPath)
+
+[Package|Standard Setup Package 1|Configure Shared Files]
+Applicable=Yes
+C:\Downloads\Underground Search\Underground Browser.exe=No
+C:\Downloads\Underground Search\cedit.ini=No
+C:\Downloads\Underground Search\popups.dat=No
+C:\Downloads\Underground Search\UndergroundHistory.dat=No
+C:\Programming\Underground Search\Underground Browser.exe=No
+C:\Programming\Underground Search\UndergroundBrowse.ini=No
+C:\Spaz\Underground Search\Underground Search\Underground Browser.exe=No
+C:\Spaz\Underground Search\Underground Search\popups.dat=No
+C:\Spaz\Underground Search\Underground Search\UndergroundHistory.dat=No
+C:\Spaz\Underground Search\Underground Search\UndergroundBrowse.ini=No
+C:\Spaz\Underground Search\Underground Search\Credits.txt=No
+C:\Spaz\Underground Search\Underground Search\Agent.ico=No
+C:\Spaz\Underground Search\Underground Search\SearchEngines.udb=No
+C:\Spaz\Underground Browser\Beta5.exe=No
+C:\Spaz\Underground Browser\popups.dat=No
+C:\Spaz\Underground Browser\UndergroundHistory.dat=No
+C:\Spaz\Underground Browser\UndergroundBrowse.ini=No
+C:\Spaz\Underground Browser\Credits.txt=No
+C:\Spaz\Underground Browser\Agent.ico=No
+C:\Spaz\Underground Browser\SearchEngines.udb=No
+
+[Package|Standard Setup Package 1|Distribution]
+Type=single
+Size=
+Title=Underground Browser Beta 5
+
+[Package|Standard Setup Package 1|IconGroups]
+Group0=Underground Browser
+PrivateGroup0=-1
+Parent0=$(Programs)
+
+[Package|Standard Setup Package 1|Underground Browser]
+Icon1="Underground Browser.exe"
+Title1=Underground Browser
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Standard Setup Package 1|Package]
+PackageFolder=C:\Spaz\Browser
+ProjectFolder=C:\Spaz\Underground Browser
+ServerSideCab=
+File1=C:\Spaz\Browser\setup.exe
+File2=C:\Spaz\Browser\Setup.Lst
+File3=C:\Spaz\Browser\Beta5.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz

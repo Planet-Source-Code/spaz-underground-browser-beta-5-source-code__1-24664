@@ -1,0 +1,60 @@
+Corrupted Inc's Underground Browser
+Beta 5
+Copyright (c) 2001
+Corrupted Inc. Spaz
+
+
+
+
+CREDITS
+___________________________________
+Created by:
+
+Spaz
+Built on Open Source Project
+
+Special Thanks To:
+
+PlanetSourceCode.com
+Nelly
+Sheps
+Surf Tabs
+Tiger Studios
+Net Tab (Favorites Menu)
+cEdit Early release (Best Editor around)
+Every Body else who Contributed Code
+And many others...
+___________________________________
+
+This is a whole New Look for the 
+Browser, Changed the Menus and
+the tool bar this allows for
+more flexability in the program
+and better performance.
+
+____________________________________
+
+Finally Got the Menus in the
+right place, displaying the 
+correct icon, still want it to fall
+bellow the Top menu but. it does not
+want to. Got the indexes working 
+correct after reading the Documentation
+for the cNewMenu ;), which I overlooked
+File association is excelent could ask 
+for more it handles it great.
+--------------------------------------
+Best of all the Popup Killa is working at
+99.9% gave me a few bugs but the new way of 
+killing popups is excelent, not much resources 
+are used and it does it in record time without
+the user knowing it was running.
+________________________________________
+Thanks for helping me on this
+Version of Underground Browser
+
+
+Thanks and please send
+feedback or comments to
+www.astemaninc.net
+or spaz@astemaninc.net
